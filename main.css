@@ -1,0 +1,94 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+h1 {
+	
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	color:#F7F7F7
+	}
+	
+body {
+	background-color:#430708;
+	}
+
+h2 {
+	color:white;
+}
+
+#sidebar {
+	
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+	width:125px;
+	height:450px;
+	background-color:#662122;
+}
+
+#sidebarside {
+	
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+#main {
+	margin:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:20px;
+	float:left;
+	width:85%;
+	color:white;
+	background-color:#2B0000;
+	
+}
+
+#header {
+	font-family:Arial, Helvetica, sans-serif;
+	background:#662122;
+	top:0%;
+	text-align:right;
+	height:50px;
+	width:100%;
+	position:static;
+	
+}
+
+#footer {
+font-family:Arial, Helvetica, sans-serif;
+background:#662122;
+position:fixed;
+text-align:center;
+width:100%;
+bottom:0%;
+height:20px;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	color:grey;
+	
+}
+
+#leftprice {
+	background-color:#221515;
+	float:left;
+	width:49%;
+	border-style:solid;
+	border-color:#999;
+	height:600px;
+}
+
+#rightprice {
+	background-color:#221515;
+	float:right;
+	width:49%;
+	border-style:solid;
+	border-color:#999;
+	height:600px;
+	
+}
+
+
